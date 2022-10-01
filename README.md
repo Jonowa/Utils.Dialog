@@ -59,5 +59,5 @@ string input = MessageDialog.Input("Please enter your name.");
 string input = MessageDialog.Input("Please enter your name.", "John Doe");
 
 // Shows a input dialog with additional "Cancel" button an multiline support.
-string input = MessageDialog.Input("Please enter your name.", true, MessageButtons.OKCancel);
+string input = MessageDialog.Input("Please enter your address.", true, MessageButtons.OKCancel);
 ```
