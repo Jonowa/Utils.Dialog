@@ -38,6 +38,8 @@ MessageResult result = MessageDialog.Show("Text message", MessageButtons.Close, 
 ```csharp
 // Shows a simple text message with information icon and without buttons. (No result!)
 MessageDialog.Show("Text message", MessageButtons.None, MessageIcon.Information);
+// Do time intensive operation
+System.Threading.Thread.Sleep(3000);
 // Close message
 MessageDialog.Close();
 ```
