@@ -37,8 +37,8 @@ MessageResult result = MessageDialog.Show("Text message", MessageButtons.Close, 
 ### Message dialog without buttons (has to be closed by calling form)
 ```csharp
 // Shows a simple text message with information icon and without buttons. (No result!)
-MessageDialog.Show("Text message", MessageButtons.None, MessageIcon.Information);
-// Do time intensive operation
+MessageDialog.Show("Please wait for a while ...", MessageButtons.None, MessageIcon.Information);
+// Do time intensive operation or something else
 System.Threading.Thread.Sleep(3000);
 // Close message
 MessageDialog.Close();
