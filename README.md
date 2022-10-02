@@ -1,5 +1,5 @@
 # Utils.Dialog
-Nice message dialog and input dialog
+This class contains static functions for showing message dialogs with nice options. You can format the message text using some tags similar to html. You also can let the dialog close automatically after a few seconds or display it without buttons an close it by your application. And last but not least this class contains a nice input dialog.
 
 ## Usage
 
