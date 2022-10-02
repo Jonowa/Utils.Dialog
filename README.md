@@ -61,3 +61,15 @@ string input = MessageDialog.Input("Please enter your name.", "John Doe");
 // Shows a input dialog with additional "Cancel" button an multiline support.
 string input = MessageDialog.Input("Please enter your address.", true, MessageButtons.OKCancel);
 ```
+
+### Options
+```csharp
+// Enable/disable beep sound on showing dialog
+MessageDialog.BeepOnShow = true;
+
+// Change dialog font
+MessageDialog.Font = new Font("Arial", 12);
+
+// Change language
+MessageDialog.Language = "de";
+```
