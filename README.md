@@ -28,14 +28,6 @@ MessageResult result = MessageDialog.Show(new string[] {
 });
 ```
 
-### Message dialog
-```csharp
-// Shows a simple text message with "OK" button.
-MessageResult result = MessageDialog.Show("Text message");
-
-// Shows a simple text message with a caption, "OK" and "Cancel" button and information icon.
-MessageResult result = MessageDialog.Show("Text message", "Caption", MessageButtons.OKCancel, MessageIcon.Information);
-```
 ### Message dialog with autoclose
 ```csharp
 // Shows a simple text message with "Close" button, succes icon and autoclose after 5 seconds.
