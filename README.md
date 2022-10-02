@@ -73,3 +73,14 @@ MessageDialog.Font = new Font("Arial", 12);
 // Change language
 MessageDialog.Language = "de";
 ```
+
+### Supported formatting tags
+| Source | Output/description |
+| --- | --- |
+| `<b>bold</b> text` | **bold** text |
+| `<i>italic</i> text` | _italic_ text |
+| `<u>underlined</u> text` | underlined text (can not be shown here) |
+| `<b><i>nested</i></b> formatted text` | **_nested_** formatted text |
+| `<p>` | start a new line similar to `\n` |
+| `<t>` | tabulator     like this :) |
+
