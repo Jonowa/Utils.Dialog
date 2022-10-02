@@ -24,7 +24,7 @@ MessageResult result = MessageDialog.Show(new string[] {
     "You also can <b><i>combine</i></b> format information like in html.", 
     "Lists can be formatted with tabulators and line breaks like this:", 
     "<t>1. First<p><t>2. Second<p><t>3. Third",
-    "Hyperlinks are supported too: https//github.com"
+    "Hyperlinks are supported too: https://github.com"
 });
 ```
 
