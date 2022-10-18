@@ -961,12 +961,16 @@ namespace Utils.Dialog
 
                 top += labelText.Height + fontHeight / 2;
             }
+            
+            string[] lines = string.IsNullOrEmpty(value) ? 
+                new string[] { } :
+                value.Replace(Environment.NewLine, "\n").Split('\n');
 
             // input field
             TextBox newValue = new TextBox {
                 Font = form.Font,
                 Name = "value",
-                Text = value,
+                Lines = lines,
                 BackColor = SystemColors.Window,
                 ForeColor = SystemColors.ControlText,
                 Location = new Point(left, top),
