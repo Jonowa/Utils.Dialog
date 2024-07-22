@@ -1266,6 +1266,7 @@ namespace Utils.Dialog
             sb.Replace("</u>", "\\ulnone ");
 
             sb.Insert(0, "{\\rtf1\\ansi\\ansicpg1252\n");
+            sb.Append('}');
 
             return sb.ToString();
         }
